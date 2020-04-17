@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#paginas{
+    background-color:rgb(200, 200, 200);
+    padding: 10px;
+    text-align:center;
+    position:fixed;
+    width: 100%;
+    top: 0px;
+    margin-bottom:30px;
+    z-index:1000px;
+}
+
+#paginas a{
+    padding:5px;
+    text-align:center;
+    font-family: verdana;
+    text-decoration:none;
+}
