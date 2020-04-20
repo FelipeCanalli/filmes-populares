@@ -15,12 +15,14 @@
     <header>
       <nav>
         <ul id="esquerda">
-          <li><h1>Central Filmes</h1></li>
+          <li>
+            <h1><a href="#" onclick="carregar(1)">Central Filmes</a></h1>
+          </li>
           <li>
             <!-- ul>li*5>a e tabular -->
           </li>
 
-          <li><a href="#"> Filmes </a></li>
+          <li><a href="#" onclick="carregar(1)"> Filmes </a></li>
           <li><a href="#"> Séries </a></li>
           <li><a href="#"> Atores </a></li>
           <li><a href="#"> more </a></li>
@@ -32,7 +34,10 @@
       <div class="container-fluid">
         <div id="paginas"></div>
 
-        <div id="conteudo"></div>
+        <div id="caixa">
+          <div id="conteudo"></div>
+          <div id="livre">Espaço livre</div>
+        </div>
       </div>
     </main>
 

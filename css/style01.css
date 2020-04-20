@@ -11,7 +11,7 @@ header {
   border-radius: 0%;
 }
 
-h1 {
+nav ul li h1 a {
   /* background-image: url(https://images.unsplash.com/photo-1512149154706-f9b30ded17ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60); */
   padding-left: 200px;
   background-position: 0px -160px;
@@ -22,19 +22,16 @@ h1 {
 }
 h1:hover {
   text-decoration: underline;
-  color: rgba(193, 199, 255, 0.671);
+  color: rgba(144, 214, 255, 0.658);
   margin-left: 10px;
   transition: ease 2s;
   /* background-color: rgb(0, 0, 0); */
 }
 
 nav ul li {
-  display: inline-block;
+  display: inline-block; /* dispor os links um ao lado do outro */
 }
 nav ul li a {
-  /* dispor os links um ao lado do outro */
-  display: inline-block;
-
   /* cor na borda do LI */
   /* border: 1px solid red; */
   font-family: arial;
@@ -70,13 +67,13 @@ nav ul li a {
 }
 
 #conteudo {
-  width: 80%;
-  margin: 0 auto;
-  border: 1px solid #eee;
+  width: 85%;
+  margin-left: 350px;
+  border: 1px solid rgb(255, 255, 255);
   padding: 10px;
 }
 #conteudo div {
-  width: 30%;
+  width: 20%;
   height: 1000px;
   float: left;
   margin: 10px;
@@ -98,9 +95,25 @@ nav ul li a {
 h2 {
   font-family: "Viga";
   font-weight: normal;
+  padding-left: 7px;
 }
 h2:hover {
   color: #122b3c;
   transition: ease 0.5s;
   cursor: pointer;
+}
+
+p.sinopse,
+p.data {
+  padding-left: 7px;
+  margin-bottom: 5px;
+}
+
+#livre {
+  border-color: 1px 1px 1px red;
+  padding: 100px;
+  border: 2px solid red;
+  width: 345px;
+  /* height: 0px; */
+  margin-left: 22px;
 }
